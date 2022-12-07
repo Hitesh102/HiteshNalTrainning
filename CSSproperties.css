@@ -1,0 +1,64 @@
+/* .parent{
+    background-color: grey;
+    padding: 20px;
+
+}
+
+.child {
+    padding:10px ;
+    width: 600px;
+}
+
+.child1 {
+    background-color: orange;
+    position: sticky;
+    top: 50px;
+
+
+}
+
+.child2 {
+    background-color: chartreuse;
+}
+.child3 {
+    background-color: lightseagreen;
+} */
+
+/* h1::before {
+    content: ">";
+    color: brown;
+}
+
+.child1 p::after, .child1 p::before {
+    color: violet;
+    font-size: 64px;
+    font-style: italic;
+
+}
+
+
+.child1 p::before{
+    content: open-quote;
+}
+.child1 p::after{
+    content: close-quote;
+} */
+
+body {
+    --mainColor: #a1a1a1;
+    --mainFontSize: 32px;
+
+}
+
+.parent{
+    font-size: var(--mainFontSize);
+
+}
+.child-level-1 {
+    color: var(--mainColor);
+
+}
+.child-level-2 {
+
+    color: var(--mainColor);
+}

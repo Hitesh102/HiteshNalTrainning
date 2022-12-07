@@ -1,0 +1,19 @@
+.container  #myHeader {
+    color: red;
+}
+
+div + h1{
+    color:burlywood;
+}
+
+.myText1 + .myText2 {
+    color: blue;
+}
+
+.myText0 ~ .myText2 {
+    color: aqua;
+}
+
+.myInput[type="text"], input[type="email"]{
+    border: 2px solid orchid;
+}

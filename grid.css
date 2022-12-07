@@ -1,0 +1,40 @@
+.container {
+    background-color: lightgray;
+    padding: 10px;
+    display: grid;
+    height: 100vw;
+
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(3,1fr);
+
+    /* grid-row-gap: 10px;
+    grid-column-gap: 10px; */
+/* 1st is for row and 2nd for column shorthand for grid row col */
+    grid-gap: 10px 10px;
+
+    grid-template-areas: 
+    "header header header header"
+    "content content . sidebar"
+    "footer footer footer footer"
+    ;
+}
+
+.item {
+    background-color: tomato;
+    padding: 5px;
+    color: aliceblue;
+}
+
+.item-1 {
+    grid-area: header;
+}
+.item-2 {
+    grid-area: content;
+}
+.item-3 {
+    grid-area: sidebar;
+}
+
+.item-4 {
+    grid-area: footer;
+}
